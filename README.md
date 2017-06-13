@@ -1,11 +1,9 @@
 BitHub
 =================
 
-[![Build Status](https://travis-ci.org/WhisperSystems/BitHub.png?branch=master)](https://travis-ci.org/WhisperSystems/BitHub)
-
 BitHub is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository.
 
-More information can be found in our [announcement blog post](https://whispersystems.org/blog/bithub).
+More information can be found in this [announcement blog post](https://whispersystems.org/blog/bithub).
 
 Opting Out
 ----------
@@ -16,7 +14,7 @@ If you'd like to opt out of receiving a payment, simply include the string "FREE
 Building
 -------------
 
-    $ git clone https://github.com/WhisperSystems/BitHub.git
+    $ git clone https://github.com/openwalletGH/BitHub.git
     $ cd BitHub
     $ mvn3 package
 
@@ -43,17 +41,3 @@ $ heroku config:set DONATION_URL=your_donation_url
 $ git remote add your_heroku_remote
 $ git push heroku master
 ```
-
-Mailing list
-------------
-
-Have a question? Ask on our mailing list!
-
-whispersystems@lists.riseup.net
-
-https://lists.riseup.net/www/info/whispersystems
-
-Current BitHub Payment For Commit: 
-=================
-[![Current Price](https://bithub.herokuapp.com/v1/status/payment/commit)](https://whispersystems.org/blog/bithub/)
-
